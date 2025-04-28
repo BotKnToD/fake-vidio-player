@@ -46,6 +46,7 @@ function App() {
 
   // Definisikan array videos dengan tipe yang tepat
   const videos: Video[] = [
+  { videoUrl: "https://hlsvidiobucket.s3.ap-southeast-2.amazonaws.com/original/vidio99.mp4", hlsUrl: "https://hlsvidiobucket.s3.ap-southeast-2.amazonaws.com/hls/vidio99/vidio99.m3u8", thumbnailUrl: "https://hlsvidiobucket.s3.ap-southeast-2.amazonaws.com/thumbnails/vidio99.webp" },
   { videoUrl: "https://hlsvidiobucket.s3.ap-southeast-2.amazonaws.com/original/vidio15.mp4", hlsUrl: "https://hlsvidiobucket.s3.ap-southeast-2.amazonaws.com/hls/vidio15/vidio15.m3u8" },
   { videoUrl: "https://hlsvidiobucket.s3.ap-southeast-2.amazonaws.com/original/vidio14.mp4", hlsUrl: "https://hlsvidiobucket.s3.ap-southeast-2.amazonaws.com/hls/vidio14/vidio14.m3u8" },
   { videoUrl: "https://hlsvidiobucket.s3.ap-southeast-2.amazonaws.com/original/vidio11.mp4", hlsUrl: "https://hlsvidiobucket.s3.ap-southeast-2.amazonaws.com/hls/vidio11/vidio11.m3u8" },
