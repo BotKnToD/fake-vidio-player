@@ -2,14 +2,47 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Video Player</title>
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" />
+    <meta name="description" content="Streamify - Modern Video Player Website" />
+
+    <title>Streamify</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet" />
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/styles/main.css" />
   </head>
-  <body>
-    <div id="root"></div>
+  <body style="font-family: 'Roboto', sans-serif;">
+    <header>
+      <nav>
+        <h1>Streamify</h1>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#features">Features</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <div id="root">
+        <!-- React App or Video Player will render here -->
+      </div>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 Streamify. All rights reserved.</p>
+    </footer>
+
+    <!-- Main Script -->
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>
